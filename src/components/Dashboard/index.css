@@ -1,0 +1,31 @@
+.dashboard-main-container{
+    margin-top:60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("../../../public/heroback.jpeg");
+    
+   
+}
+.container-1{
+    height: 30%;
+    text-align: start;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+    /* background-image: linear-gradient(to right,#eddee5,#e7e6f4,#f5f6f8); */
+}
+.title{
+    margin-top: 80px;
+    font-size: 60px;
+    color:#ffffff;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+    padding-right: 30px;
+
+}

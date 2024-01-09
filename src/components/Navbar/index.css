@@ -1,0 +1,97 @@
+.navbar-main-container{
+position: fixed;
+background-color: #ffffff;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60px;
+    width: 100%;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.left-container{
+    display: flex;
+    align-items: center;
+}
+
+.filters{
+    display: flex;
+    background-color: #f5f6f8;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 6px;
+    padding: 5px;
+    max-width:160px;
+    width: auto;
+}
+
+
+.to-login-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.to-signup-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+.right-container{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    justify-content: flex-end;
+}
+.login-button{
+    background: none;
+  cursor: pointer;
+  outline: none;
+  font-family: "Roboto";
+  border: none;
+  font-size: 15px;
+  color: #b3b7bb;
+  margin-right: 6px;
+}
+.sign-up-button{
+    background-color: #1192ee;
+    border: 1px solid;
+    font-family: 'Roboto';
+    border:none;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin-right: 6px;
+    margin-left:6px;
+    font-size: 14px;
+    color: white;
+
+
+    
+    
+}
+.all-resources-text{
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #505050;
+    font-weight: 500;
+    margin-right: 6px;
+}

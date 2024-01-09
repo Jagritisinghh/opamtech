@@ -1,0 +1,103 @@
+
+.signup-page-main-container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+   }
+  
+   .sub-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+  
+  .signup-form-container{
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+     align-items: center;
+      border-radius: 8px;
+      box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+      width: 300px;
+  }
+  
+  .website-logo{
+      width: 200px;
+      height: 100px;
+    align-self: center;
+    margin-bottom: 15px;
+  }
+  .form-heading{
+      font-family: 'Roboto';
+    font-size: 24px;
+    color: #313131;
+  
+  }
+  .signup-input-container{
+  font-family: 'Roboto';
+    font-size: 15px;
+    color: #475569;
+    outline: none;
+    background-color: #f5f6f8;
+    width: 100%;
+    border:none;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px;
+  
+      margin-top: 15px;
+      width: 100%;
+  }
+  
+  .signup-button{
+  
+      font-family: 'Roboto';
+      font-size: 15px;
+      color: #ffffff;
+      height: 30px;
+      width: 100%;
+      margin-top: 20px;
+      background-color: #1d1d1d;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      outline: none;
+  }
+  
+  
+  
+  .check-box-container{
+      
+      display: flex;
+      margin: 12px;
+      margin-left: 0px;
+      align-items: center;
+  }
+  
+  .checkbox{
+  
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+  }
+  
+  .privacy-terms-text{
+  
+      font-family: 'Roboto';
+      font-size: 15px;
+      color: #1e293b;
+  }
+  .bottom-text{
+      font-family: 'Roboto';
+      font-size: 15px;
+      color: #1e293b;
+  
+  }
+  
+  .link{
+      text-decoration: none;
+      color:#475569 ;
+  }
