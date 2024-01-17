@@ -27,7 +27,7 @@ const LoginPage=()=>{
         </div>
 
         <button className="signup-button" type="submit">Login</button>
-       <p className="bottom-text">Don't have an account? <Link to="/signup" className="link">Sign up</Link></p>
+       <p className="bottom-text">Don't have an account? <Link to="/signup" className="link login">Sign up</Link></p>
 
 
                 </form>

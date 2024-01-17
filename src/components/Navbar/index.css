@@ -16,7 +16,7 @@
 }
 .nav-logo{
     width: 120px;
-    height: 85px;
+    height: 80px;
     margin-right: 10px;
 }
 
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.filters{
+/* .filters{
     display: flex;
     background-color: #f5f6f8;
     border: none;
@@ -35,40 +35,17 @@
     padding: 5px;
     max-width:160px;
     width: auto;
-}
+} */
 
 
-.to-login-link{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
 
-
-}
-
-.to-signup-link{
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    color: white;
-    
-}
 .right-container{
     display: flex;
     align-items: center;
     margin-right: 5%;
     justify-content: flex-end;
 }
-.login-button{
-    background: none;
-  cursor: pointer;
-  outline: none;
-  font-family: "Roboto";
-  border: none;
-  font-size: 15px;
-  color: #b3b7bb;
-  margin-right: 6px;
-}
+
 .sign-up-button{
     background-color: #0f1066;
     border: 1px solid;
@@ -90,10 +67,27 @@
     
     
 }
+.link{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.login-button{
+   
+    background: none;
+  cursor: pointer;
+  outline: none;
+  font-family: "Roboto";
+  border: none;
+  font-size: 15px;
+  color: blue;
+  margin-right: 6px;
+}
 .all-resources-text{
     font-family: "Roboto";
     font-size: 15px;
-    color: #505050;
+    color: #28185d;
     font-weight: 500;
     margin-right: 6px;
 }

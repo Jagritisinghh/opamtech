@@ -5,11 +5,13 @@
     min-height: 100vh;
     /* background-image: url("../../../public/heroback.jpeg"); */
     background-size: cover;
+    align-items: center;
     
    
 }
 .container-1{
-    height: 30%;
+    height: 280px;
+    width: 100%;
     text-align: start;
     padding-top: 30px;
     
@@ -18,18 +20,117 @@
     height: 100%;
     width: 100%;
 }
-.title{
+/* .title{
     margin-top: 80px;
     font-size: 70px;
     color:#ffffff;
     text-align: center;
-}
+} */
 .container-2{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left:20px ;
+    padding-right:20px ;
+
+}
+
+.certification-and-popular-course-container{
+    display: flex;
+    justify-content: space-between;
+}
+.certified-courses-container{
+    background-color:rgb(255, 255, 255);
+    width: 48%;
+    padding: 0px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+
+
 }
 
 
+
+.list-items{
+    list-style-type:none;
+    padding: 0px;
+    margin-left: 10px;
+    
+    
+}
+
+.certification-images{
+    width:100%;
+    height: 40%;
+    
+    
+    
+}
+@media screen and (min-width:960px){
+    .container-2{
+       width: 95%;
+    
+    }
+   
+    .certified-courses-container{
+       display: flex;
+       flex-direction:row ;
+    }
+    .certification-images{
+        width:40%;
+        height: 100%;
+        
+        
+        
+    }
+    .container-1{
+        height: 350px;
+       
+        
+    }
+
+}
+.course-category-head{
+    font-family: "Roboto";
+    color: rgb(24, 35, 140);
+    font-size: 22px;
+    margin-left: 10px;
+    
+}
+.icons{
+    margin-right: 10px;
+}
+.certified-popular-items{
+    font-family: "Roboto";
+    color: rgb(50, 42, 109);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+    padding-left: 0px;
+}
+.view-more-button{
+    background-color: #b1a735;
+    border: 1px solid;
+    font-family: 'Roboto';
+    border:none;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    margin-left:10px;
+    font-size: 14px;
+    color: rgb(255, 255, 254);
+    
+}
+.most-popular-title{
+    font-family: "Roboto";
+    color: rgb(250, 250, 250);
+    font-size: 34px;
+    margin-left: 8px;
+}
 .container-3{
     display: flex;
     justify-content: space-between;
@@ -38,41 +139,4 @@
     margin: 0px;
     padding-right: 30px;
 
-}
-.certified-courses-container{
-    background-color:rgb(255, 255, 255);
-    border-radius: 12px;
-    width: 25%;
-    padding: 0px;
-    height: 450px;
-
-}
-.list-items{
-    list-style-type:circle;
-    margin-left: 8px;
-
-}
-
-.certification-images{
-    width:100%;
-    height: 50%;
-    border-radius: 12px;
-
-}
-.certified-popular-items{
-    font-family: "Roboto";
-    color: black;
-    font-size: 20px;
-}
-.course-category-head{
-    font-family: "Roboto";
-    color: rgb(107, 115, 185);
-    font-size: 24px;
-    margin-left: 8px;
-}
-.most-popular-title{
-    font-family: "Roboto";
-    color: rgb(250, 250, 250);
-    font-size: 34px;
-    margin-left: 8px;
 }

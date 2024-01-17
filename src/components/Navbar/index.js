@@ -15,8 +15,8 @@ const Navbar=()=>{
 
             <div className="right-container">
             <p className="all-resources-text">All resources</p>
-            <button className="login-button"> <Link className="to-login-link" to="/login"><MdOutlinePermIdentity size={25} />Log In</Link></button>
-            <button className="sign-up-button"><Link className="to-signup-link" to="signup">Free Sign Up</Link></button>
+            <button className="login-button"> <Link className="link login" to="/login"><MdOutlinePermIdentity size={25} />Log In</Link></button>
+            <button className="sign-up-button"><Link className="link" to="signup">Free Sign Up</Link></button>
             </div>
 
             
