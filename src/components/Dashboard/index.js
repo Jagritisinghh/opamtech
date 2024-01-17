@@ -20,7 +20,7 @@ const Dashboard=()=>{
                 
                 <div className="certification-and-popular-course-container">
                  <div className="certified-courses-container" >
-                    <img  src="./certification.webp" alt="" className="certification-images"/>
+                    {/* <img  src="./certification.webp" alt="" className="certification-images"/> */}
                     <div className="popular-course-responsive-container">
                 <h2 className="course-category-head">Popular Courses </h2>
                 <ul className="list-items">
@@ -43,7 +43,7 @@ const Dashboard=()=>{
                 </div>
                 </div>
                 <div className="certified-courses-container" >
-                    <img  src="./certification.webp" alt="" className="certification-images"/>
+                    {/* <img  src="./certification.webp" alt="" className="certification-images"/> */}
                     <div className="popular-course-responsive-container">
                 <h2 className="course-category-head">Certification Courses </h2>
                 <ul className="list-items">

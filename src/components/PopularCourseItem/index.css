@@ -1,49 +1,46 @@
 .resource-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 30%;
     margin-top: 10px;
     border-radius: 10px;
-    background-color: white;
     overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
 }
 
-.resource-card:hover {
-    transform: scale(1.05);
-}
 
 .heading {
-    color: #060509;
-    font-family: "Roboto", sans-serif;
-    font-size: 28px;
+    color: #7863b8;
+    font-family: "Roboto";
+    font-size: 18px;
     font-weight: bold;
     margin-left: 10px;
 }
 
 .resources-img {
-    width: 100%;
     border-radius: 10px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    height: 320px;
-    transition: transform 0.3s ease-in-out;
+    height: 150px;
 }
 
-.resource-card:hover .resources-img {
-    transform: scale(1.1);
-}
+
 
 .course-details-container {
     margin-left: 20px;
 }
 
 .know-more-btn {
-    margin-bottom: 10px;
-    margin-left: 10px;
-    background-color: rgb(77, 136, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    background-color: rgb(9, 14, 95);
     font-family: "Roboto", sans-serif;
     border: none;
-    border-radius: 8px;
-    padding: 8px;
+    /* border-radius: 8px; */
+    padding: 15px;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
@@ -55,4 +52,25 @@
 
 .link {
     text-decoration: none;
+}
+.items{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #170451;
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    margin-right: 6px;
+}
+
+@media screen and (min-width:960px){
+    .heading{
+        font-size: 24px;
+    }
+    .items{
+        font-size: 18px;
+    }
+   
 }
