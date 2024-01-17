@@ -10,7 +10,7 @@ const LoginPage=()=>{
         <div className="signup-page-main-container">
         <div className="sub-container">
             
-        <Link to="/" className="="link><img src="./opamtechlogo.jpeg" alt="website logo" className="website-logo"/></Link> 
+        <Link to="/" className="="link><img src="./opam_tech_logo.jpeg" alt="website logo" className="website-logo"/></Link> 
                 <form className="signup-form-container">
                     <h2 className="form-heading">Login</h2>
                     <input className="signup-input-container" placeholder="Your email"/>
@@ -27,7 +27,7 @@ const LoginPage=()=>{
         </div>
 
         <button className="signup-button" type="submit">Login</button>
-       <p className="bottom-text">Don't have an account? <Link to="/signup" className="link">Signup</Link></p>
+       <p className="bottom-text">Don't have an account? <Link to="/signup" className="link">Sign up</Link></p>
 
 
                 </form>

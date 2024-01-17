@@ -1,0 +1,87 @@
+.course-detail-main-container {
+    margin-top:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url("../../../public/heroback.jpeg");
+    background-size: cover;
+}
+
+.course-detail-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 80%;
+    height: 70vh;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(40px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.course-heading {
+    font-size: 34px;
+    margin: 0;
+    color: white;
+    font-family: "Roboto";
+
+}
+
+.course-description-container {
+    flex: 1;
+    padding: 20px;
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
+
+
+}
+
+.course-description {
+    font-weight: bold;
+}
+
+.course-duration,
+.course-subscribers {
+    margin: 10px 0;
+    color: white;
+    font-family: "Roboto";
+
+
+}
+
+.get-the-course-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.video-player-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* @media (max-width: 768px) {
+    .course-detail-container-2 {
+        flex-direction: column;
+    }
+    .video-player-container,
+    .course-description-container {
+        width: 100%;
+    }
+} */

@@ -7,19 +7,8 @@ const Navbar=()=>{
     return(
         <nav className="navbar-main-container">
             <div className="left-container">
-            <Link to="/" className="="link><img src="./opamtechlogo.jpeg" alt="website-logo" className="nav-logo"/></Link> 
-            <select id="cars" name="Popular Courses" className="filters">
-    <option value="Python" selected>Certification Courses</option>
-    <option value="Java">Java</option>
-    <option value="React JS">React JS</option>
-    <option value="HTML">HTML</option>
-  </select>
-  <select id="cars" name="Certification Courses" className="filters">
-  <option value="Python">Python</option>
-    <option value="Java">Java</option>
-    <option value="React JS">React JS</option>
-    <option value="HTML">HTML</option>
-  </select>
+            <Link to="/" className="link"><img src="./opam_tech_logo.jpeg" alt="website-logo" className="nav-logo"/></Link> 
+           
 
 
             </div>

@@ -1,0 +1,58 @@
+.resource-card {
+    width: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resource-card:hover {
+    transform: scale(1.05);
+}
+
+.heading {
+    color: #060509;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.resources-img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 320px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.resource-card:hover .resources-img {
+    transform: scale(1.1);
+}
+
+.course-details-container {
+    margin-left: 20px;
+}
+
+.know-more-btn {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: rgb(77, 136, 218);
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.know-more-btn:hover {
+    background-color: #5c94e8;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: black;
+  background-color: white;
  }
 
  .sub-container{
@@ -26,15 +26,14 @@
 }
 
 .website-logo{
-    width: 200px;
-    height: 100px;
+    width: 170px;
+    height: 150px;
   align-self: center;
-  margin-bottom: 15px;
 }
 .form-heading{
     font-family: 'Roboto';
   font-size: 24px;
-  color: #313131;
+  color: #1b1d72;
 
 }
 .signup-input-container{
@@ -61,7 +60,7 @@ font-family: 'Roboto';
     height: 30px;
     width: 100%;
     margin-top: 20px;
-    background-color: #1d1d1d;
+    background-color: #2a3b75;
     border-radius: 8px;
     border: none;
     cursor: pointer;
@@ -75,6 +74,7 @@ font-family: 'Roboto';
     display: flex;
     margin: 12px;
     margin-left: 0px;
+    margin-top: 30px;
     align-items: center;
 }
 
@@ -100,5 +100,8 @@ font-family: 'Roboto';
 
 .link{
     text-decoration: none;
-    color:#475569 ;
+    color:none ;
+}
+.login{
+    color: #475569;
 }
